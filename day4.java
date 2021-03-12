@@ -1,6 +1,6 @@
 //A drawer contains socks of n different colours. The number of socks available of ith colour is given by a[i] where a is an array of n elements. Tony wants to take k pairs of socks out of the drawer. However, he cannot see the colour of the sock that he is picking. You have to tell what is the minimum number of socks Tony has to pick in one attempt from the drawer such that he can be absolutely sure, without seeing their colours, that he will have at least k matching pairs.
 
-// Initial Template for Java
+
 
 import java.io.*;
 import java.util.*;
@@ -21,10 +21,9 @@ class GFG {
         }
     }
 }
-// } Driver Code Ends
 
 
-// User function Template for Java
+
 
 class Solution {
     public int find_min(int[] a, int n, int k) {
