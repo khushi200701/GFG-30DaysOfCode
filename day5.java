@@ -1,3 +1,5 @@
+//Given a matrix of size N x M. You have to find the Kth element which will obtain while traversing the matrix spirally starting from the top-left corner of the matrix.
+
 import java.util.*;
 
 class Find_Given_Element_Of_Spiral_Matrix 
