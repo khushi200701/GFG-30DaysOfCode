@@ -1,3 +1,5 @@
+//Given an array of size N, find the number of distinct pairs {a[i], a[j]} (i != j) in the array with their sum greater than 0.
+
 import java.io.*;
 import java.util.*; 
 
