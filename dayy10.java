@@ -1,3 +1,5 @@
+//Given two strings A and B, find the minimum number of times A has to be repeated such that B becomes a substring of the repeated A. If B cannot be a substring of A no matter how many times it is repeated, return -1.
+
 import java.io.*;
 import java.util.*; 
 
