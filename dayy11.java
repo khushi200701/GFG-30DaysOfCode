@@ -1,3 +1,7 @@
+//Geek wants to send an encrypted message in the form of string S to his friend Keeg along with instructions on how to decipher the message. To decipher the message, his friend needs to iterate over the message string from left to right, if he finds a '*', he must remove it and add all the letters read so far to the string. He must keep on doing this till he gets rid of all the '*'.
+//Can you help Geek encrypt his message string S? 
+//Note: If the string can be encrypted in multiple ways, find the smallest encrypted string. 
+
 import java.io.*;
 import java.util.*;
 public class Main {
