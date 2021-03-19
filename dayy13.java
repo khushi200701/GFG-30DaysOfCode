@@ -1,4 +1,36 @@
 //Given Preorder, Inorder and Postorder traversals of some tree of size N. The task is to check if they are all of the same tree or not.
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t > 0){
+        	int n = sc.nextInt();
+        	int[] preorder = new int[n];
+        	int[] inorder = new int[n];
+        	int[] postorder = new int[n];
+            for(int i=0; i<n; i++)
+                preorder[i] = sc.nextInt();
+            for(int i=0; i<n; i++)
+                inorder[i] = sc.nextInt();
+            for(int i=0; i<n; i++)
+                postorder[i] = sc.nextInt();
+            Solution ob = new Solution();
+            if(ob.checktree(preorder, inorder, postorder, n) )
+			System.out.println("Yes");
+			else
+			System.out.println("No");
+            t--;
+        }
+    }
+}
+// } Driver Code Ends
+
 
 class Solution
 {
@@ -12,7 +44,7 @@ class Solution
         index=0;
         List<Integer> l=new ArrayList<>();
         postOrder(root,l);
-       
+        //System.out.println(l);
         int myPost[]=new int[len];
         for(int i=0;i<len;i++)
           myPost[i]=l.get(i);
