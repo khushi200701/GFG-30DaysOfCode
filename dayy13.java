@@ -12,7 +12,7 @@ class Solution
         index=0;
         List<Integer> l=new ArrayList<>();
         postOrder(root,l);
-        //System.out.println(l);
+       
         int myPost[]=new int[len];
         for(int i=0;i<len;i++)
           myPost[i]=l.get(i);
