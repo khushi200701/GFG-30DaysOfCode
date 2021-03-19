@@ -1,3 +1,5 @@
+//Given Preorder, Inorder and Postorder traversals of some tree of size N. The task is to check if they are all of the same tree or not.
+
 class Solution
 {
     static int index=0;
